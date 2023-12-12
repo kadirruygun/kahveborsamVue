@@ -1,25 +1,16 @@
 <template>
-    <div class="navbar-bg">
-        <div class="row">
-            <div class="col-2"></div>
-
-            <NavbarBadge />
-            <div class="col-2">
-
-            </div>
-        </div>
-
-
+    <div>
+        <Navbar />
     </div>
 </template>
 
 <script lang="ts">
-import NavbarBadge from "../components/NavbarBadge.vue"
 
+import Navbar from "../components/NavbarComponent.vue"
 import { defineComponent } from 'vue';
 
 export default defineComponent({
 
-    components: { NavbarBadge }
+    components: { Navbar }
 })
 </script>
