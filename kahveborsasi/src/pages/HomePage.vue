@@ -2,6 +2,7 @@
     <div>
         <Navbar />
         <Content/>
+      
     </div>
 </template>
 

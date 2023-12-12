@@ -11,10 +11,8 @@
   
 
 <script lang="ts">
-
 import { defineComponent, reactive, toRefs, ref } from 'vue';
 import CarouselPhoto from "../types/CarouselPhoto"
-
 
 export default defineComponent({
 
@@ -30,11 +28,13 @@ export default defineComponent({
         { id: 3, url: "carousel3.jpg" }
 
       ] as CarouselPhoto[],
+      
 
 
     })
     return { ...toRefs(state) }
-  }
+  },
+  
 
 })
 </script>

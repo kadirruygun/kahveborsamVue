@@ -42,10 +42,11 @@ export default defineComponent({
         const state = reactive({
             productList:[
                 {id:1,name:"Kavrulmuş Kahve",url:"product1.jpg",price:50},
-                {id:1,name:"Orta Kavrulmuş",url:"product2.jpg",price:220},
-                {id:1,name:"Çiğ Yeşil Çekirdek",url:"product3.jpg",price:170},
-                {id:1,name:"Çiğ Yeşil Çekirdek Yeni Hasat",url:"product4.jpg",price:150},
-                {id:1,name:"Koyu Kavrulmuş",url:"product5.jpg",price:250},
+                {id:2,name:"Orta Kavrulmuş",url:"product2.jpg",price:220},
+                {id:3,name:"Çiğ Yeşil Çekirdek",url:"product3.jpg",price:170},
+                {id:4,name:"Çiğ Yeşil Çekirdek Yeni Hasat",url:"product4.jpg",price:150},
+                {id:5,name:"Koyu Kavrulmuş",url:"product5.jpg",price:250},
+                
 
             ] as Product[]
         })

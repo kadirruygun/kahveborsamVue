@@ -1,6 +1,6 @@
 <template>
     <div class="col">
-        
+
         <NavbarBottom />
 
         <div class="row">
@@ -20,6 +20,7 @@
                 <div class="row q-my-lg justify-center text-weight-bold ">
 
                     <FeatureComponent />
+                    
 
                 </div>
 
@@ -32,18 +33,21 @@
                 <div class="row">
                     <div class="col ">
                         <h6 class="text-weight-bold">Öne Çıkan Ürünler</h6>
-                        <Product/>
+                        <Product />
                     </div>
                 </div>
 
-
-
-
+                <div class="row justify-center">
+                    <ExtensionComponent />
+                </div>
             </div>
             <div class="col-2"></div>
         </div>
 
+        
+        <Footer/>
 
+        
 
 
     </div>
@@ -56,15 +60,16 @@ import CarouselComponent from "../components/CarouselComponent.vue"
 import FeatureComponent from "../components/FeatureComponent.vue"
 import InfoComponent from "../components/InfoComponent.vue"
 import Product from "../components/ProductComponent.vue"
+import Footer from "../components/FooterComponent.vue"
 
-
-import { defineComponent } from 'vue';
 import CategoryList from "./CategoryList.vue";
+import ExtensionComponent from "./ExtensionComponent.vue"
+import { defineComponent } from 'vue';
 
 export default defineComponent({
 
 
 
-    components: { NavbarBottom, CategoryList, CarouselComponent, FeatureComponent, InfoComponent,Product }
+    components: { NavbarBottom, CategoryList, CarouselComponent, FeatureComponent, InfoComponent, Product, ExtensionComponent,Footer }
 })
 </script>

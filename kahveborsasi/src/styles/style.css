@@ -27,6 +27,13 @@
     
 }
 
+.top-position{
+    position: fixed;
+    width: 100%;
+    z-index: 200;
+    scroll-behavior: smooth;
+}
+
 .wp-icon{
     width: 40px;
 }
@@ -68,7 +75,6 @@ div.info{
 
 div.info>h5{
     position: absolute;
-    
     left: 50%;
     transform: translateX(-50%);
 }
